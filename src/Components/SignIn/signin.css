@@ -1,0 +1,32 @@
+button{
+    font-size: .3em;
+  }
+
+.btn_submit {
+    font-size: 3em;
+
+}
+.btn_reg{
+    font-size: 3em;
+}
+
+
+.login-form, .login-form2 {
+    padding: 2px;
+    text-align: center;
+    font-size: 2em;
+}
+.login-form {
+    padding-right: 50px;
+}
+.login-form label {
+    padding-right: 50px;
+}
+
+.login-form2 {
+    padding-right: 50px;
+}
+
+.login-form2 label {
+    padding-right: 10px;
+}

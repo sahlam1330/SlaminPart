@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './checkout.css'
+
 
 const Checkout = () => {
 
@@ -24,6 +26,11 @@ const Checkout = () => {
                             <label form="phoneinput">Phone</label>
                             <input type="text" id="phoneinput" name="phone" required="required"  />
                         </fieldset>
+
+                        <div className="btn_submit">
+                            <button type="submit">Submit </button>
+                            
+                        </div>
                 </form>
             </div>
         );

@@ -4,11 +4,11 @@ import {
   NavLink, 
   HashRouter
 } from "react-router-dom";
-import Checkout from "./Checkout";
-import Inventory from "./Inventory";
-import SignIn from "./SignIn";
-import Home from "./Home";
-import About from "./About";
+import Checkout from "./Components/Checkout/Checkout";
+import Inventory from "./Components/Inventory/Inventory";
+import SignIn from "./Components/SignIn/SignIn";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
 
 
 function Main() {

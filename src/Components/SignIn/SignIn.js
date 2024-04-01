@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './signin.css'
+import { Link, useNavigate } from "react-router-dom";
 
 export const SignIn = () => {
 
@@ -18,6 +20,13 @@ export const SignIn = () => {
                 <div className="login-form2">
                     <label htmlFor="password"> Password</label>
                     <input type="password" placeholder="*******" name="password" ></input>
+                </div>
+
+                <div className="btn_submit">
+                    <button type="submit">Log In</button>                   
+                </div>
+                <div className="btn_reg">
+               <button>Don't have an account? Register here.</button>
                 </div>
 
             </div>

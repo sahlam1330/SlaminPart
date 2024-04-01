@@ -1,4 +1,6 @@
-
+body {
+  background-color: rgb(245, 245, 245);
+}
 
 p {
   font-size: 2em;
@@ -15,6 +17,8 @@ p {
   margin-left: 40%;
   margin-top: 30px;
   color:white;
+  font-size: 3em;
+
 }
 
 .header-tabs {
@@ -29,42 +33,7 @@ p {
   margin-right: 189px;
 
 }
-#deliveryinfo label {
-  display: block;
-  float: left;
-  clear: left;
-  margin-top: 5px;
-}
-#deliveryinfo {
-  position: relative;
-  left: 30%;
-  margin-right: 60%;
-  
-}
 
-#deliveryinfo input {
-  display: block;
-  margin-left: 140px;
-  margin-top: 9px;
-}
-
-fieldset {
-  margin-bottom: 10px;
-  position: relative;
-  padding: 2.5em 1em 0.5em 1em;
-  background: white;
-}
-
-fieldset fieldset {
-  padding-top: 15px;
-}
-
-fieldset fieldset legend {
-  font-size: 1em;
-  margin-top: 25px;
-  top: -30px;
-  left: 8px;
-}
 .search_btn, .search_field {
   padding-left: 3px;
 }
@@ -78,10 +47,7 @@ fieldset fieldset legend {
   width: 20em;
 }
 
-.home{
-  font-size: 0.5em;
-  padding-top: 70px;
-}
+
 
 .header-tabs li {
   background-color: lightgray;
@@ -105,6 +71,7 @@ ul.header-tabs li {
   font-weight: bold;
   padding: 20px;
   border-style: solid;
+  font-size: 0.8em;
   
 }
 
@@ -114,7 +81,4 @@ ul.header-tabs li {
  top: 60px;
  font-size: 0.7em;
 
-}
-button{
-  font-size: .3em;
 }

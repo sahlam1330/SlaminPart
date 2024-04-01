@@ -4,15 +4,6 @@ import  bigsale from './bigsale.jpeg'
 
 function Home() {
 
-    const [count, setCount] = useState(100000);
-
-     useEffect(() => {
-    let timer = setTimeout(() => {
-    setCount((count) => count - 1);
-         }, 0);
-
-        return () => clearTimeout()
-    }, []);
 
         return (
             <div className="home">
